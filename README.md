@@ -58,6 +58,7 @@ This project uses the following main technologies:
 - Clerk is used for user authentication management. Check Clerk's documentation for additional setup
 
 ## Requirement
+
 - [x] Players must log in before starting the game
 - [x] Login must be developed according to OAuth 2.0 standards
 - [x] The game rules are the same as regular Tic-Tac-Toe (Player vs Bot)
