@@ -1,7 +1,66 @@
-# tic-tac-toe
+# Tic-Tac-Toe Project User Guide
 
-- [x] ผู้เล่นจะต้องเข้าสู่ระบบก่อนเริ่มเล่นเกม
-- [x] กติกาการเล่นเกมเหมือน OX ทั่วไป (ผู้เล่น vs บอท)
-- [x] มีระบบเก็บคะแนน
-- [x] เมื่อผู้เล่นเอาชนะบอทได้ จะได้รับ 1 คะแนน (ถ้าแพ้จะเสีย 1 คะแนน)
-- [x] ถ้าผู้เล่นเอาชนะบอทได้ 3 ครั้งติดต่อกันจะได้รับคะแนนพิเศษเพิ่มอีก 1 คะแนน และการนับจำนวนครั้งที่ชนะติดต่อกันจะถูกนับใหม่
+## Installation
+
+1. Ensure you have Node.js installed on your machine
+2. Clone the project from the repository (if available) or create a new project folder
+3. Open Terminal and navigate to the project folder
+4. Run the following command to install dependencies:
+
+```bash
+npm install
+```
+
+## Development
+
+To start development, use the command:
+
+```bash
+npm run dev
+```
+
+This command will start the Vite development server
+
+## Building
+
+When you're ready to build the project for production, use the command:
+
+```Bash
+npm run build
+```
+
+## Preview
+
+After building, you can preview the build using the command:
+
+```bash
+npm run preview
+```
+
+## Technologies Used
+
+This project uses the following main technologies:
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Query
+- React Router
+- [Clerk](https://clerk.com/)
+- [shadcn](https://ui.shadcn.com/)
+
+## Important Notes
+
+- This project uses TypeScript, so make sure you write code in TypeScript (.ts or .tsx files)
+- Tailwind CSS is used for styling, so you can use Tailwind classes in your JSX code
+- React Query is used for state management and data fetching
+- Clerk is used for user authentication management. Check Clerk's documentation for additional setup
+
+## Requirement
+- [x] Players must log in before starting the game
+- [x] Login must be developed according to OAuth 2.0 standards
+- [x] The game rules are the same as regular Tic-Tac-Toe (Player vs Bot)
+- [x] There is a scoring system
+- [x] When a player defeats the bot, they receive 1 point (if they lose, they lose 1 point)
+- [x] If a player defeats the bot 3 times in a row, they will receive an additional bonus point, and the consecutive win count will be reset
