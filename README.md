@@ -1,5 +1,8 @@
 # Tic-Tac-Toe Project User Guide
 
+## Demo
+[View Demo](https://tic-tac-toe-pied-iota.vercel.app/)
+
 ## Installation
 
 1. Ensure you have Node.js installed on your machine
@@ -41,12 +44,12 @@ npm run preview
 
 This project uses the following main technologies:
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- React Query
-- React Router
+- [React](https://react.dev)
+- [TypeScript](https://www.typescriptlang.org)
+- [Vite](https://vite.dev)
+- [Tailwind CSS](https://tailwindcss.com)
+- [TanStack Query](https://tanstack.com/query/latest)
+- [React Router](https://reactrouter.com/en/main)
 - [Clerk](https://clerk.com/)
 - [shadcn](https://ui.shadcn.com/)
 
