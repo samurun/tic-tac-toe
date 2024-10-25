@@ -13,6 +13,12 @@ export function makeEasyBotMove({
     if (square === null) acc.push(index);
     return acc;
   }, [] as number[]);
+
+  // If there are no empty squares, return without making a move
+  if (emptySquares.length === 0) {
+    return;
+  }
+
   // Select a random empty square
   const randomIndex = Math.floor(Math.random() * emptySquares.length);
   handleClick(emptySquares[randomIndex]);
@@ -25,6 +31,11 @@ export function makeHardBotMove({
   squares: SquareValueType[];
   handleClick: (index: number) => void;
 }) {
+  // Check if there are any empty squares
+  if (!squares.some((square) => square === null)) {
+    return; // No empty squares, so don't make a move
+  }
+
   // Implement minimax algorithm for hard mode
   const bestMove = findBestMove(squares);
   handleClick(bestMove);

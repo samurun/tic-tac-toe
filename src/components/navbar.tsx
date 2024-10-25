@@ -17,7 +17,7 @@ export default function Navbar() {
           <h1 className='text-2xl font-bold'>Tic-Tac-Toe</h1>
         </Link>
         {!isLoaded ? (
-          <div>
+          <div data-testid='skeleton-container'>
             <Skeleton className='size-8 rounded-full' />
           </div>
         ) : isSignedIn ? (

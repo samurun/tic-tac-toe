@@ -8,7 +8,7 @@ import Protected from './components/protected.tsx';
 import NotFound from './pages/404.tsx';
 import RootLayout from './components/layout.tsx';
 
-const router = createBrowserRouter([
+export const router = createBrowserRouter([
   {
     element: <RootLayout />,
     children: [
